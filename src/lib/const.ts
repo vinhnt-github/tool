@@ -1,0 +1,30 @@
+export const VALUE_TYPE = [
+  { label: "FIXED", value: "FIXED" },
+  { label: "RANDOM", value: "RANDOM" },
+  { label: "PARENT", value: "PARENT" },
+  { label: "DBSEQUENCE", value: "DBSEQUENCE" },
+  { label: "DBDATA", value: "DBDATA" },
+  { label: "SEQUENTIALLY", value: "SEQUENTIALLY" },
+];
+
+export const DATA_TYPE = [
+  { label: "ADDRESS", value: "ADDRESS" },
+  { label: "ALPHABET_NAME", value: "ALPHABET_NAME" },
+  { label: "ALPHABET_FIRST_NAME", value: "ALPHABET_FIRST_NAME" },
+  { label: "ALPHABET_LAST_NAME", value: "ALPHABET_LAST_NAME" },
+  { label: "FULL_NAME", value: "FULL_NAME" },
+  { label: "FIRST_NAME", value: "FIRST_NAME" },
+  { label: "LAST_NAME", value: "LAST_NAME" },
+  { label: "BOOLEAN", value: "BOOLEAN" },
+  { label: "CITY", value: "CITY" },
+  { label: "CODE", value: "CODE" },
+  { label: "COMPANY", value: "COMPANY" },
+  { label: "COUNTRY", value: "COUNTRY" },
+  { label: "DATE", value: "DATE" },
+  { label: "DEFAULT", value: "DEFAULT" },
+  { label: "EMAIL", value: "EMAIL" },
+  { label: "NUMBERIC", value: "NUMBERIC" },
+  { label: "PHONE", value: "PHONE" },
+  { label: "SCHOOL", value: "SCHOOL" },
+  { label: "LOREM", value: "LOREM" },
+];
